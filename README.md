@@ -2,6 +2,10 @@
 
 This project implements a robust Patient Risk Scoring System designed to assess patient risk based on key health indicators: Blood Pressure, Temperature, and Age. It integrates with a simulated real-world API, handling common challenges like inconsistent response formats, rate limiting, and intermittent failures. The system calculates individual risk scores for each patient and identifies high-risk patients, fever patients, and data quality issues.
 
+## 📸 UI Preview
+
+![Patient Risk Scoring Screenshot](./public/screenshots/patient-risk-ui.png)
+
 ## Features
 
 *   **Comprehensive Risk Scoring**: Calculates a total risk score based on detailed criteria for Blood Pressure, Temperature, and Age.
