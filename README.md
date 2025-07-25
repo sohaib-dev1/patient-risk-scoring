@@ -26,17 +26,6 @@ This project implements a robust Patient Risk Scoring System designed to assess 
     *   Reference section for risk scoring criteria.
 *   **Modular and Maintainable Codebase**: Follows best practices for Next.js (App Router) and React, with a well-organized folder structure for scalability and readability.
 
-## API Information
-
-The system interacts with a simulated API that exhibits real-world behaviors:
-
-*   **Base URL**: `https://assessment.ksensetech.com/api`
-*   **Authentication**: Requires `x-api-key` header. The API key is hardcoded in `constants/api.ts` for this demonstration.
-*   **Rate Limiting**: May return 429 errors.
-*   **Intermittent Failures**: Approximately 8% chance of 500/503 errors.
-*   **Pagination**: Returns 5 patients per page by default.
-*   **Inconsistent Responses**: Data format may vary between requests.
-
 ## Folder Structure
 
 The project is organized into a modular and maintainable structure:
